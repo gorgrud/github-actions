@@ -11,7 +11,7 @@ on:
 jobs:
   Build:
     runs-on: ubuntu-latest
-    steps: |
+    steps:
       - run: echo "event name is:" ${{ github.event_name }}
       - run: echo "branch name is:" ${{ github.ref }} 
 
